@@ -7,6 +7,27 @@
   pointer-events: none;
 }
 
+.btn {
+  text-decoration: none;
+  background-color: cornflowerblue;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.textarea {
+    min-height: 150px;
+    min-width: 350px;
+}
+
+.middle-ware-for-pop-up {
+  position: absolute;
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: grey;
+  opacity: 0.5;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
